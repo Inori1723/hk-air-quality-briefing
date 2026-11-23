@@ -1,0 +1,92 @@
+{
+  "dataset": "Past record of Air Quality Health Index (English Version)",
+  "provider": "Environmental Protection Department, Hong Kong",
+  "source_page": "https://data.gov.hk/en-data/dataset/hk-epd-airteam-past-record-of-air-quality-health-index-en",
+  "period": "2025-01 to 2025-12",
+  "files": [
+    {
+      "file": "202501_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202501_Eng.csv",
+      "bytes": 32714,
+      "sha256": "e72f9ef1e7aec366b21e1070d09c30923dc37ecae87fbf4797259937e8608293",
+      "status": "downloaded"
+    },
+    {
+      "file": "202502_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202502_Eng.csv",
+      "bytes": 29694,
+      "sha256": "fe557f51d308db5ba52011546511b30be7e839ca342cef80c50a87f364d52d9f",
+      "status": "downloaded"
+    },
+    {
+      "file": "202503_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202503_Eng.csv",
+      "bytes": 32592,
+      "sha256": "e652d2b89cbed3b8863c665a52997de1d4c5743b852b88b58a18dd7dbd5c0acf",
+      "status": "downloaded"
+    },
+    {
+      "file": "202504_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202504_Eng.csv",
+      "bytes": 31803,
+      "sha256": "4f43a6416f2649a41c3120a8c7acebc4b5fc5b6b4e72df9a0b621da0fbe7a58a",
+      "status": "downloaded"
+    },
+    {
+      "file": "202505_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202505_Eng.csv",
+      "bytes": 32614,
+      "sha256": "862dc3f64824e572a1059c34747c80b137b1b57ece04f6ec8d8840ac5f82b6bb",
+      "status": "downloaded"
+    },
+    {
+      "file": "202506_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202506_Eng.csv",
+      "bytes": 31680,
+      "sha256": "e3c5f0ce26f53b580d849bae72f82097a59ff9f58490eb5169d2887c44eb25fa",
+      "status": "downloaded"
+    },
+    {
+      "file": "202507_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202507_Eng.csv",
+      "bytes": 32808,
+      "sha256": "d9ac11be12a78c11d4302e4bfc1142cc9f8f4a7327aeac533420c878541172ae",
+      "status": "downloaded"
+    },
+    {
+      "file": "202508_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202508_Eng.csv",
+      "bytes": 32647,
+      "sha256": "8d46b965f639775c9e79c3b876d85ac99194a8c46bc8e6f1194f9f059c31f67a",
+      "status": "downloaded"
+    },
+    {
+      "file": "202509_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202509_Eng.csv",
+      "bytes": 31476,
+      "sha256": "7f0892535f9bfd6b8a1d51b79ee79699da8a399e0ec6714bfbf72a896b43b7cf",
+      "status": "downloaded"
+    },
+    {
+      "file": "202510_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202510_Eng.csv",
+      "bytes": 32631,
+      "sha256": "0ffac57239547eb7f86e8ea4067ad23e13f9089a65be4fed9db1fb506aa83e9d",
+      "status": "downloaded"
+    },
+    {
+      "file": "202511_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202511_Eng.csv",
+      "bytes": 31618,
+      "sha256": "768ca7a2db5e212197c16167c63214070f361ac6b0b2ddb15125e70159c56e84",
+      "status": "downloaded"
+    },
+    {
+      "file": "202512_Eng.csv",
+      "source_url": "https://www.aqhi.gov.hk/epd/ddata/html/history/2025/202512_Eng.csv",
+      "bytes": 32688,
+      "sha256": "3d87343eacf89eb66f7a2610abe9de8b20d397ea3556def4f0b0cdb62867f623",
+      "status": "downloaded"
+    }
+  ]
+}

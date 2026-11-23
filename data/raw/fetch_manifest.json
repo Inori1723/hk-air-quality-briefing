@@ -1,0 +1,198 @@
+[
+  {
+    "url": "https://www.censtatd.gov.hk/api/get.php?id=110-02001&lang=en&full_series=1",
+    "dest": "data\\raw\\geo_population\\csd_table_110_02001_en.json",
+    "status": "cached",
+    "bytes": 414171,
+    "ok": true
+  },
+  {
+    "url": "https://static.csdi.gov.hk/csdi-webpage/download/common/42b54d18c4445208b66cca67f6295904fb614bba7a5cf93e822161e999469410",
+    "dest": "data\\raw\\geo_population\\epd_monitoring_stations_csdi.zip",
+    "status": "cached",
+    "bytes": 8477,
+    "ok": true
+  },
+  {
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/epd_rcd_1629267205214_40635/FeatureServer/0/query?where=1=1&outFields=*&f=geojson",
+    "dest": "data\\raw\\geo_population\\epd_monitoring_stations.geojson",
+    "status": "cached",
+    "bytes": 19117,
+    "ok": true
+  },
+  {
+    "url": "https://static.csdi.gov.hk/csdi-webpage/download/common/3d8545d17c23ca553c32842d7801c99f0a73727237b681c039054cae5011054b",
+    "dest": "data\\raw\\geo_population\\had_district_boundary_csdi.zip",
+    "status": "cached",
+    "bytes": 210045,
+    "ok": true
+  },
+  {
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/had_rcd_1634523272907_75218/FeatureServer/0/query?where=1=1&outFields=*&f=geojson",
+    "dest": "data\\raw\\geo_population\\had_district_boundary.geojson",
+    "status": "cached",
+    "bytes": 757172,
+    "ok": true
+  },
+  {
+    "url": "https://api.github.com/repos/cydalytics/HK_Voters_Distribution/git/trees/master?recursive=1",
+    "dest": "data\\raw\\geo_population\\cydalytics_tree.json",
+    "status": "cached",
+    "bytes": 3624,
+    "ok": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cydalytics/HK_Voters_Distribution/master/hkg_adm1.geojson",
+    "dest": "data\\raw\\geo_population\\cydalytics_hkg_adm1.geojson",
+    "status": 200,
+    "bytes": 587877,
+    "ok": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cydalytics/HK_Voters_Distribution/master/hkg_mod.geojson",
+    "dest": "data\\raw\\geo_population\\cydalytics_hkg_mod.geojson",
+    "status": 200,
+    "bytes": 640664,
+    "ok": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cydalytics/HK_Voters_Distribution/master/README.md",
+    "dest": "data\\raw\\geo_population\\cydalytics_README.md",
+    "status": 200,
+    "bytes": 3624,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202501.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202501.xml",
+    "status": "cached",
+    "bytes": 2139,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202502.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202502.xml",
+    "status": "cached",
+    "bytes": 1950,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202503.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202503.xml",
+    "status": "cached",
+    "bytes": 2139,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202504.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202504.xml",
+    "status": "cached",
+    "bytes": 2076,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202505.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202505.xml",
+    "status": "cached",
+    "bytes": 2139,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202506.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202506.xml",
+    "status": "cached",
+    "bytes": 2076,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202507.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202507.xml",
+    "status": "cached",
+    "bytes": 2139,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202508.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202508.xml",
+    "status": "cached",
+    "bytes": 2139,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202509.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202509.xml",
+    "status": "cached",
+    "bytes": 2076,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202510.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202510.xml",
+    "status": "cached",
+    "bytes": 2140,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202511.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202511.xml",
+    "status": "cached",
+    "bytes": 2077,
+    "ok": true
+  },
+  {
+    "url": "https://www.hko.gov.hk/cis/dailyExtract/dailyExtract_202512.xml",
+    "dest": "data\\raw\\weather_2025\\dailyExtract_202512.xml",
+    "status": "cached",
+    "bytes": 2140,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/opendata/opendata.php?dataType=CLMTEMP&rformat=csv&station=HKO",
+    "dest": "data\\raw\\weather_2025\\hko_daily_mean_temp.csv",
+    "status": "cached",
+    "bytes": 839586,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/opendata/opendata.php?dataType=CLMMAXT&rformat=csv&station=HKO",
+    "dest": "data\\raw\\weather_2025\\hko_daily_max_temp.csv",
+    "status": "cached",
+    "bytes": 840870,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/opendata/opendata.php?dataType=CLMMINT&rformat=csv&station=HKO",
+    "dest": "data\\raw\\weather_2025\\hko_daily_min_temp.csv",
+    "status": "cached",
+    "bytes": 839652,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/cis/csvfile/HKO/ALL/daily_HKO_RF_ALL.csv",
+    "dest": "data\\raw\\weather_2025\\daily_HKO_RF_ALL.csv",
+    "status": "cached",
+    "bytes": 811553,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/cis/csvfile/HKO/ALL/daily_HKO_RH_ALL.csv",
+    "dest": "data\\raw\\weather_2025\\daily_HKO_RH_ALL.csv",
+    "status": "cached",
+    "bytes": 435852,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/cis/csvfile/KP/ALL/daily_KP_WSPD_ALL.csv",
+    "dest": "data\\raw\\weather_2025\\daily_KP_WSPD_ALL.csv",
+    "status": 200,
+    "bytes": 204635,
+    "ok": true
+  },
+  {
+    "url": "https://data.weather.gov.hk/weatherAPI/cis/csvfile/KP/ALL/daily_KP_SUN_ALL.csv",
+    "dest": "data\\raw\\weather_2025\\daily_KP_SUN_ALL.csv",
+    "status": 200,
+    "bytes": 387063,
+    "ok": true
+  }
+]

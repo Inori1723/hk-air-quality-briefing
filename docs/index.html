@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hong Kong Air Quality Briefing System</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header><div class="wrap">
+<nav aria-label="Main"><a href="#coverage">Coverage</a><a href="#examples">Chart and map examples</a>
+<a href="#reports">Briefings</a><a href="#methods">Methods and sources</a></nav>
+<h1>Hong Kong Air Quality Briefing System</h1>
+<p>Explore how hourly monitoring records become English briefings on station conditions,
+risk categories and district coverage. HKBU AIDM7360 Groupby course project.</p>
+</div></header>
+<main class="wrap">
+<section id="coverage"><h2>Monitoring coverage</h2>
+<p>2025-01-01 through 2025-12-31 · Hong Kong time</p>
+<dl class="coverage">
+<div><dt>Monitoring stations</dt><dd>18</dd></div>
+<div><dt>Hourly AQHI records</dt><dd>157,680</dd></div>
+<div><dt>Hourly pollutant records</dt><dd>157,680</dd></div>
+<div><dt>Daily weather records</dt><dd>365</dd></div>
+</dl></section>
+<section id="examples"><h2>Selected Pre-generated Examples</h2>
+<p>These charts and maps show selected dates from the 2025 dataset. The full Python
+Notebook (<code>main.ipynb</code>) supports interactive queries, briefings,
+charts and district maps for any date in 2025.</p>
+<nav class="date-links" aria-label="Observation dates"><a href="#date-01">2025-04-01</a><a href="#date-02">2025-04-14</a></nav><details id="date-01" open><summary>2025-04-01 · Central/Western</summary><div class="case-head"><p>Station setting comparison and 2025-03 trend</p><a href="maps/date-01.html">Explore the district map →</a></div><div class="charts"><figure><a href="assets/charts/date-01-hourly.png"><img loading="lazy" src="assets/charts/date-01-hourly.png" alt="Hourly AQHI at Central/Western"></a></figure><figure><a href="assets/charts/date-01-categories.png"><img loading="lazy" src="assets/charts/date-01-categories.png" alt="Risk category counts at Central/Western"></a></figure><figure><a href="assets/charts/date-01-comparison.png"><img loading="lazy" src="assets/charts/date-01-comparison.png" alt="Central/Western and Central comparison"></a></figure><figure><a href="assets/charts/date-01-monthly.png"><img loading="lazy" src="assets/charts/date-01-monthly.png" alt="2025-03 daily maxima and pollutant trend"></a></figure></div></details><details id="date-02" open><summary>2025-04-14 · Central/Western</summary><div class="case-head"><p>Station setting comparison and 2025-04 trend</p><a href="maps/date-02.html">Explore the district map →</a></div><div class="charts"><figure><a href="assets/charts/date-02-hourly.png"><img loading="lazy" src="assets/charts/date-02-hourly.png" alt="Hourly AQHI at Central/Western"></a></figure><figure><a href="assets/charts/date-02-categories.png"><img loading="lazy" src="assets/charts/date-02-categories.png" alt="Risk category counts at Central/Western"></a></figure><figure><a href="assets/charts/date-02-comparison.png"><img loading="lazy" src="assets/charts/date-02-comparison.png" alt="Central/Western and Central comparison"></a></figure><figure><a href="assets/charts/date-02-monthly.png"><img loading="lazy" src="assets/charts/date-02-monthly.png" alt="2025-04 daily maxima and pollutant trend"></a></figure></div></details></section>
+<section id="reports"><h2>Exported briefings</h2>
+<ul class="report-list"><li><a href="reports/briefing-01.html">Daily Station Briefing · 2025-04-01</a><small>Daily Station Briefing · <a href="reports/briefing-01.md">Markdown</a></small></li><li><a href="reports/briefing-02.html">Daily Category Breakdown · 2025-04-01</a><small>Daily Category Breakdown · <a href="reports/briefing-02.md">Markdown</a></small></li><li><a href="reports/briefing-03.html">Comparison of Two Stations · 2025-04-01</a><small>Comparison of Two Stations · <a href="reports/briefing-03.md">Markdown</a></small></li><li><a href="reports/briefing-04.html">Weather and Pollution Summary · 2025-03-21 to 2025-03-23</a><small>Weather and Pollution Summary · <a href="reports/briefing-04.md">Markdown</a></small></li><li><a href="reports/briefing-05.html">District Map Report · 2025-04-14</a><small>District Map Report · <a href="reports/briefing-05.md">Markdown</a></small></li><li><a href="reports/briefing-06.html">Monthly Station Summary · 2025-03</a><small>Monthly Station Summary · <a href="reports/briefing-06.md">Markdown</a></small></li><li><a href="reports/briefing-07.html">High Risk Episode Bulletin · 2025-04-14 to 2025-04-14</a><small>High Risk Episode Bulletin · <a href="reports/briefing-07.md">Markdown</a></small></li><li><a href="reports/briefing-08.html">Air Quality News Flash · 2025-04-14</a><small>Air Quality News Flash · <a href="reports/briefing-08.md">Markdown</a></small></li></ul></section>
+<section id="methods"><h2>Methods and sources</h2>
+<p>District colors show the highest valid hourly AQHI among General stations in each district.
+Roadside readings appear in their own marker layer. The map distinguishes districts
+without General stations from districts where General stations had no valid observations.</p>
+<p>Charts keep observation hours 01–24 in the original day. AQHI averages use numeric
+values 1–10. Serious readings are reported as 10+. Risk shares use valid hours,
+and valid substitute readings are counted separately. EPD updated the AQHI calculation method on 22 March 2025. AQHI changes across this date do not establish changes in pollutant concentrations.</p>
+<p>AQHI and pollutant observations come from EPD. Weather is from the Hong Kong Observatory
+and population is from the Census and Statistics Department. The map uses the supplied
+Cydalytics district boundaries and the project's EPD station coordinates.</p>
+<p><a href="https://www.aqhi.gov.hk/en/past-data/past-aqhi.html">EPD historical AQHI</a> · <a href="https://www.aqhi.gov.hk/en/what-is-aqhi/faqs.html">EPD calculation update</a>
+· <a href="README_EXPORT.md">Export instructions</a></p>
+</section></main><footer class="wrap">Hong Kong Baptist University · Groupby</footer>
+</body>
+</html>

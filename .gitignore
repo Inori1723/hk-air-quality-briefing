@@ -1,0 +1,24 @@
+# Python & environments
+.venv/
+.pytest_cache/
+.python_dependencies/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.matplotlib/
+
+# SQLite transient files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local backups, packaging archives & unfinished course drafts (root-level)
+groupby_team_projecct-*/
+proposal/
+/*.zip
+/*.docx
+/*.pptx
+
+# OS metadata
+.DS_Store
+Thumbs.db
